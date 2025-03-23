@@ -1,0 +1,31 @@
+body {
+    background-color: red;
+    text-align: center;
+    font-size: 24px;
+}
+
+img {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: green;
+        font-size: 18px;
+    }
+    
+    img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 425px) {
+    body {
+        background-color: blue;
+        font-size: 14px;
+    }
+    
+    img {
+        width: 100%;
+    }
+}

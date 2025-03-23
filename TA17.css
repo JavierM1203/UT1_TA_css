@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    outline:3px solid #321f1a; /* outer border */
+    text-align: center;
+}
