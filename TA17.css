@@ -9,6 +9,13 @@ div {
     width: 300px;
     padding: 20px;
     border-radius: 15px;
-    outline:3px solid #321f1a; /* outer border */
+    outline: 3px solid #321f1a;
     text-align: center;
+}
+
+div img {
+    border-radius: 50%;
+    position: relative;
+    top: -21px;
+    left: -40px;
 }
